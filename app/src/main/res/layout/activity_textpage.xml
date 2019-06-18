@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Textpage"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/etname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name "
+            android:textColor="#020202"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:inputType="textPersonName"
+            android:imeOptions="actionNext"/>
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="Email"
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:textSize="20dp"
+            />
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="Phone no."
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:textSize="20dp" />
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="Password"
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:inputType="textPassword"/>
+        <EditText
+            android:id="@+id/etconfirm_Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="Confirm Password"
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:inputType="textPassword"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="choose your game"
+            android:textColor="#020202"
+            android:textSize="20dp"
+            android:padding="5dp"/>
+
+        <CheckBox
+            android:id="@+id/cbVball"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Volly ball"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:textColor="#01080E"
+            />
+        <CheckBox
+            android:id="@+id/cbfoot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Football"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:textColor="#01080E"
+            />
+        <CheckBox
+            android:id="@+id/cbbasket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Basketball"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:textColor="#01080E"
+            />
+        <Button
+            android:id="@+id/bDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DONE"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:textSize="25dp"
+            android:textColor="#082147"/>
+
+
+</LinearLayout>
+
+</LinearLayout>
+
+
+
+
