@@ -1,8 +1,9 @@
 package com.mytask;
 
 public class AdapterView {
-    public interface Onselectedlistener {
+    public interface Onselectedlistener<sandeepkuttihai> {
         int i = 0;
-        int sandeepkuttihai =100;
+        String sandeepkuttihai=null ;
+        sandeepkuttihai="she is here";
     }
 }
